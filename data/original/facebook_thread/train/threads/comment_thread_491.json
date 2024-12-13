@@ -1,0 +1,27 @@
+{
+  "post": {
+    "page": "hillaryclinton",
+    "text": "hillaryclinton.com/makeaplan"
+  },
+  "comment": {
+    "author": "Zachary",
+    "text": "Voted for Hillary ✔"
+  },
+  "replies": [
+    {
+      "reply_id": 1,
+      "author": "Kayla",
+      "text": "No"
+    },
+    {
+      "reply_id": 2,
+      "author": "Zachary",
+      "text": "Yes, I really did! Surprise! :)"
+    },
+    {
+      "reply_id": 3,
+      "author": "Kayla",
+      "text": "Honest question: Do you actually like her, or are you just voting against Trump?"
+    }
+  ]
+}

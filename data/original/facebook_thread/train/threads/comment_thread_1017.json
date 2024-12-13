@@ -1,0 +1,22 @@
+{
+  "post": {
+    "page": "donaldtrump",
+    "text": "Join Me In Colorado!"
+  },
+  "comment": {
+    "author": "Andrew",
+    "text": "The same in Britain, the government doesn't put the people first."
+  },
+  "replies": [
+    {
+      "reply_id": 1,
+      "author": "Kaley",
+      "text": "Wear red to support Trump tomorrow and election day!"
+    },
+    {
+      "reply_id": 2,
+      "author": "Cody",
+      "text": "We certainly understand!"
+    }
+  ]
+}

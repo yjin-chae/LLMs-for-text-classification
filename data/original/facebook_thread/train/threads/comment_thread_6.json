@@ -1,0 +1,27 @@
+{
+  "post": {
+    "page": "donaldtrump",
+    "text": "We spent $6 trillion in the Middle East. We could have rebuilt our country twice!"
+  },
+  "comment": {
+    "author": "Luke",
+    "text": "Emily surely a pretty good point?"
+  },
+  "replies": [
+    {
+      "reply_id": 1,
+      "author": "Emily",
+      "text": "It was a good point, they both had good points, but Hilary was more educated."
+    },
+    {
+      "reply_id": 2,
+      "author": "Luke",
+      "text": "Emily yeah I didn't see any of it haha"
+    },
+    {
+      "reply_id": 3,
+      "author": "Emily",
+      "text": "Funny*"
+    }
+  ]
+}

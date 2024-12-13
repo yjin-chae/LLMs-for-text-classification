@@ -1,0 +1,27 @@
+{
+  "post": {
+    "page": "donaldtrump",
+    "text": "Just arrived in Pennsylvania!"
+  },
+  "comment": {
+    "author": "Mackenzie",
+    "text": "Donald will you help Vets like me who can't get proper care from the VA??"
+  },
+  "replies": [
+    {
+      "reply_id": 1,
+      "author": "Rachel",
+      "text": "Hang in guy"
+    },
+    {
+      "reply_id": 2,
+      "author": "Mackenzie",
+      "text": "Rachel G. took 4 years to get an ortho appointment for my service connected knee and that's not even the worst part."
+    },
+    {
+      "reply_id": 3,
+      "author": "Tessa",
+      "text": "Prayers for you Mackenzie It is the great Vets like you why I'm pushing TRUMP so much! I respect and thank you sir for your commentment to Americas Freedom! Wear non political RED shirts to the polls!!"
+    }
+  ]
+}

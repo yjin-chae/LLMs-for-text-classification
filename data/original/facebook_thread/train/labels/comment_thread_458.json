@@ -1,0 +1,23 @@
+{
+  "comment": {
+    "stanceTrump": "Oppose",
+    "stanceClinton": "Neither"
+  },
+  "replies": [
+    {
+      "reply_id": 1,
+      "stanceTrump": "Support",
+      "stanceClinton": "Neither"
+    },
+    {
+      "reply_id": 2,
+      "stanceTrump": "Support",
+      "stanceClinton": "Neither"
+    },
+    {
+      "reply_id": 3,
+      "stanceTrump": "Support",
+      "stanceClinton": "Neither"
+    }
+  ]
+}

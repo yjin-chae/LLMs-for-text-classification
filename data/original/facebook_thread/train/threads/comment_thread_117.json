@@ -1,0 +1,17 @@
+{
+  "post": {
+    "page": "donaldtrump",
+    "text": "Join me LIVE in Sanford, FL!"
+  },
+  "comment": {
+    "author": "Keith",
+    "text": "In Colorado vets wait months not weeks to see their primary care physician. My husband waited 7 years for knee replacement surgery."
+  },
+  "replies": [
+    {
+      "reply_id": 1,
+      "author": "Robb",
+      "text": "I waited 3 years with my private insurance. To get an Mri for my knee surgery,"
+    }
+  ]
+}

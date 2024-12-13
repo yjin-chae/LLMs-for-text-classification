@@ -1,0 +1,27 @@
+{
+  "post": {
+    "page": "donaldtrump",
+    "text": "Join me LIVE in Sanford, FL!"
+  },
+  "comment": {
+    "author": "Jake",
+    "text": "Check your ballots people. They're being changed!"
+  },
+  "replies": [
+    {
+      "reply_id": 1,
+      "author": "Jake",
+      "text": "Mckail Sisk"
+    },
+    {
+      "reply_id": 2,
+      "author": "Mckail",
+      "text": "What?"
+    },
+    {
+      "reply_id": 3,
+      "author": "Jake",
+      "text": "About the ballots. Its happening here."
+    }
+  ]
+}

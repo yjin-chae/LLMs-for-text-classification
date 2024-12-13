@@ -1,0 +1,32 @@
+{
+  "post": {
+    "page": "donaldtrump",
+    "text": "Just arrived in Pennsylvania!"
+  },
+  "comment": {
+    "author": "Mariah",
+    "text": "You were awesome and strong last night. A true example of a man."
+  },
+  "replies": [
+    {
+      "reply_id": 1,
+      "author": "Amanda",
+      "text": "Amen Cousin. Love you guys."
+    },
+    {
+      "reply_id": 2,
+      "author": "Mariah",
+      "text": "Love you to Amanda."
+    },
+    {
+      "reply_id": 3,
+      "author": "Joseph",
+      "text": "Perv"
+    },
+    {
+      "reply_id": 4,
+      "author": "Mariah",
+      "text": "Bill Clinton sure is Eric"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "post": {
+    "page": "hillaryclinton",
+    "text": "Will Ferrell: comedian, actor, just your average millennial."
+  },
+  "comment": {
+    "author": "Alissa",
+    "text": "Marybeth"
+  },
+  "replies": [
+    {
+      "reply_id": 1,
+      "author": "Jason",
+      "text": "So fleek!"
+    },
+    {
+      "reply_id": 2,
+      "author": "Marybeth",
+      "text": null
+    },
+    {
+      "reply_id": 3,
+      "author": "Jason",
+      "text": null
+    },
+    {
+      "reply_id": 4,
+      "author": "Jason",
+      "text": "Fleeky Friday."
+    },
+    {
+      "reply_id": 5,
+      "author": "Marybeth",
+      "text": null
+    }
+  ]
+}

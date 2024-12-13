@@ -1,0 +1,32 @@
+{
+  "post": {
+    "page": "donaldtrump",
+    "text": "CROOKED HILLARY NO!"
+  },
+  "comment": {
+    "author": "Victoria",
+    "text": "Amy, profilo ufficiale!!!"
+  },
+  "replies": [
+    {
+      "reply_id": 1,
+      "author": "Amy",
+      "text": "Cosa vuoldire"
+    },
+    {
+      "reply_id": 2,
+      "author": "Amy",
+      "text": "Ah"
+    },
+    {
+      "reply_id": 3,
+      "author": "Amy",
+      "text": "Aspetta"
+    },
+    {
+      "reply_id": 4,
+      "author": "Amy",
+      "text": "Oddddio"
+    }
+  ]
+}
