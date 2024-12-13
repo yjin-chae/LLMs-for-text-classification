@@ -1,0 +1,27 @@
+{
+  "post": {
+    "page": "donaldtrump",
+    "text": "Join me LIVE!"
+  },
+  "comment": {
+    "author": "Madeline",
+    "text": "Many years ago you said you'd consider running for president if it got bad enough. Man of your word 👍"
+  },
+  "replies": [
+    {
+      "reply_id": 1,
+      "author": "Nicole",
+      "text": "#firstcomment"
+    },
+    {
+      "reply_id": 2,
+      "author": "Dustin",
+      "text": null
+    },
+    {
+      "reply_id": 3,
+      "author": "Luke",
+      "text": "Keep on Trumpin' #marchforamerica16"
+    }
+  ]
+}

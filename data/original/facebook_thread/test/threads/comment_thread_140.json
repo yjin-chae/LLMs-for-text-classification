@@ -1,0 +1,22 @@
+{
+  "post": {
+    "page": "hillaryclinton",
+    "text": "The story of this campaign."
+  },
+  "comment": {
+    "author": "Aaron",
+    "text": "Brianne X thoughts?"
+  },
+  "replies": [
+    {
+      "reply_id": 1,
+      "author": "Brianne",
+      "text": "I can't believe the election is in 2 days"
+    },
+    {
+      "reply_id": 2,
+      "author": "Aaron",
+      "text": "I'm starting to warm up to her after this video but,, I shouldn't be I know it's all advertisement"
+    }
+  ]
+}

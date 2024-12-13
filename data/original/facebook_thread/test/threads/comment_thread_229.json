@@ -1,0 +1,32 @@
+{
+  "post": {
+    "page": "donaldtrump",
+    "text": "Thank you Ohio - I love you! #AmericaFirst"
+  },
+  "comment": {
+    "author": "Ashley",
+    "text": "My husband and I were at the Canfield Fair today in Ohio and got the opportunity to see Trump. So thrilled we made the trip to Ohio from PA today! Had no idea Trump was to be there today; it was a great day at the fair!"
+  },
+  "replies": [
+    {
+      "reply_id": 1,
+      "author": "Colin",
+      "text": "Lucky!"
+    },
+    {
+      "reply_id": 2,
+      "author": "Sarah",
+      "text": "You were very lucky Ashley!"
+    },
+    {
+      "reply_id": 3,
+      "author": "Ashley",
+      "text": "I agree!"
+    },
+    {
+      "reply_id": 4,
+      "author": "Andrew",
+      "text": "He is a true leader Ashley! I seen him when he came to Columbus rally last March! He will be a great President! Mike Pence will make a great VP!"
+    }
+  ]
+}

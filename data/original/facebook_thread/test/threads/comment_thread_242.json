@@ -1,0 +1,32 @@
+{
+  "post": {
+    "page": "donaldtrump",
+    "text": "CROOKED HILLARY NO!"
+  },
+  "comment": {
+    "author": "Tyler",
+    "text": "Jared you might not like trump but this is so funny"
+  },
+  "replies": [
+    {
+      "reply_id": 1,
+      "author": "Jared",
+      "text": "hahaha"
+    },
+    {
+      "reply_id": 2,
+      "author": "Jared",
+      "text": "i don't like trump or hillary, but such is life"
+    },
+    {
+      "reply_id": 3,
+      "author": "Jared",
+      "text": "does anyone like trump? I mean like, anyone with more than one brain cell?"
+    },
+    {
+      "reply_id": 4,
+      "author": "Tyler",
+      "text": "Jared you could say the same thing about Hillary!"
+    }
+  ]
+}

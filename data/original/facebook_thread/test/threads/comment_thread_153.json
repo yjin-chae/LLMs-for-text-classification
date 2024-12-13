@@ -1,0 +1,27 @@
+{
+  "post": {
+    "page": "donaldtrump",
+    "text": "Muhammad Ali is dead at 74! A truly great champion and a wonderful guy. He will be missed by all!"
+  },
+  "comment": {
+    "author": "Joshua",
+    "text": "Many wonderful memories He will be missed! The Muhammed Ali clinic takes care of over 10,000 with Parkinson what a blessing, he touched so many lives! A Great Champion inside and outside the ring!"
+  },
+  "replies": [
+    {
+      "reply_id": 1,
+      "author": "Kayla",
+      "text": "Not bad for a Muslim eh?"
+    },
+    {
+      "reply_id": 2,
+      "author": "Joshua",
+      "text": "Not bad at all!"
+    },
+    {
+      "reply_id": 3,
+      "author": "Elizabeth",
+      "text": "A piece of crap Muslims"
+    }
+  ]
+}
