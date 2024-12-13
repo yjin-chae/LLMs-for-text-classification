@@ -1,0 +1,47 @@
+\begin{table}
+\centering
+\begin{talltblr}[         %% tabularray outer open
+entry=none,label=none,
+note{}={* p < 0.05, ** p < 0.01, *** p < 0.001},
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]Q[]Q[]Q[]Q[]Q[]},
+column{1}={halign=l,},
+column{2}={halign=c,},
+column{3}={halign=c,},
+column{4}={halign=c,},
+column{5}={halign=c,},
+column{6}={halign=c,},
+column{7}={halign=c,},
+hline{24}={1,2,3,4,5,6,7}{solid, 0.05em, black},
+}                     %% tabularray inner close
+\toprule
+& C1 & C2 & C3 & T1 & T2 & T3 \\ \midrule %% TinyTableHeader
+(Intercept)                   & \num{0.63}*** & \num{0.63}*** & \num{0.62}*** & \num{0.40}*** & \num{0.42}*** & \num{0.41}*** \\
+& (\num{0.02})  & (\num{0.02})  & (\num{0.02})  & (\num{0.02})  & (\num{0.02})  & (\num{0.02})  \\
+wordcountTrump                & \num{0.00}    & \num{0.00}    & \num{0.00}    & \num{0.00}    & \num{0.00}    & \num{0.00}    \\
+& (\num{0.00})  & (\num{0.00})  & (\num{0.00})  & (\num{0.00})  & (\num{0.00})  & (\num{0.00})  \\
+wordcountClinton              & \num{0.00}*   & \num{0.00}*   & \num{0.00}**  & \num{0.00}    & \num{0.00}    & \num{0.00}    \\
+& (\num{0.00})  & (\num{0.00})  & (\num{0.00})  & (\num{0.00})  & (\num{0.00})  & (\num{0.00})  \\
+TrumpAgainst                  &                & \num{0.00}    & \num{0.02}    &                & \num{-0.02}** & \num{-0.01}   \\
+&                & (\num{0.01})  & (\num{0.02})  &                & (\num{0.01})  & (\num{0.02})  \\
+TrumpFavor                    &                & \num{0.00}    & \num{0.01}    &                & \num{-0.01}   & \num{0.00}    \\
+&                & (\num{0.01})  & (\num{0.02})  &                & (\num{0.01})  & (\num{0.02})  \\
+ClintonAgainst                &                & \num{0.00}    & \num{0.01}    &                & \num{-0.01}   & \num{0.00}    \\
+&                & (\num{0.01})  & (\num{0.02})  &                & (\num{0.01})  & (\num{0.02})  \\
+ClintonFavor                  &                & \num{0.00}    & \num{0.02}    &                & \num{0.01}    & \num{0.04}    \\
+&                & (\num{0.01})  & (\num{0.02})  &                & (\num{0.01})  & (\num{0.02})  \\
+TrumpAgainst × ClintonAgainst &                &                & \num{-0.02}   &                &                & \num{-0.01}   \\
+&                &                & (\num{0.02})  &                &                & (\num{0.02})  \\
+TrumpFavor × ClintonAgainst   &                &                & \num{0.00}    &                &                & \num{0.01}    \\
+&                &                & (\num{0.02})  &                &                & (\num{0.03})  \\
+TrumpAgainst × ClintonFavor   &                &                & \num{-0.03}   &                &                & \num{-0.03}   \\
+&                &                & (\num{0.03})  &                &                & (\num{0.03})  \\
+TrumpFavor × ClintonFavor     &                &                & \num{-0.05}   &                &                & \num{-0.03}   \\
+&                &                & (\num{0.03})  &                &                & (\num{0.03})  \\
+Num.Obs.                      & \num{100}     & \num{100}     & \num{100}     & \num{100}     & \num{100}     & \num{100}     \\
+R2                            & \num{0.072}   & \num{0.079}   & \num{0.133}   & \num{0.018}   & \num{0.143}   & \num{0.174}   \\
+R2 Adj.                       & \num{0.053}   & \num{0.019}   & \num{0.035}   & \num{-0.002}  & \num{0.087}   & \num{0.081}   \\
+\bottomrule
+\end{talltblr}
+\end{table}
