@@ -11,7 +11,7 @@ Please get in touch via email if you have any questions.
 Many of the models used in this analysis require one or more GPUs. Most analyses were performed on the [Amarel high-performance computing cluster](https://oarc.rutgers.edu/resources/amarel/) at Rutgers University, a Linux-based environment consisting of a large cluster of compute nodes that can be used to execute processes in parallel. The GPT-3 and GPT-4o analyses were performed using the [OpenAI API](https://platform.openai.com/docs/overview).
 
 # Codebase
-The following sections detail the organization of the data and processes for data cleaning and merging, the estimation of the models, and the construction of the results.
+The following sections detail the organization of the data and processes for data cleaning, the estimation of the models, and the construction of the results.
 
 At a high-level, our analyses can be replicated by running the scripts to generate training data, running the models, and then finally generating the figures and tables (`tables-and-plots`). We have also provided the full output (predicted labels) from the models so the final results can be reproduced simply by using these files to produce the figures and tables without needing to perform the time-consuming and costly estimation steps.
 
