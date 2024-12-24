@@ -65,14 +65,16 @@ color_mapping <- c("GPT-4o" = colors[10],
 # Making overall plot
 dodge = position_dodge(width = 0.3)
 ggplot(overall, aes(y = estimate, x = regime, group = model, color = model)) +
-    geom_pointrange(aes(ymin = ci.low, ymax = ci.high), position = dodge, size = 0.3) +
+    geom_pointrange(aes(ymin = ci.low, ymax = ci.high, shape=model), position = dodge, size = 0.4) +
     geom_line(position = dodge, alpha = 0.5) +
     #scale_color_scico_d(palette = "tokyo", begin = 0.05, end = 0.8) +
     scale_color_manual(values = color_mapping) +
+    scale_shape_manual(values=c(15,2,6)) +
     #facet_wrap(~ interaction(subset), scales = "free_x", nrow = 1) +
     theme_classic(base_size = 10) +
-    labs(y = "F1", x = "Learning regime", color = "") +
-    theme(legend.position = "bottom")
+    labs(y = "F1", x = "Learning regime") +
+    theme(legend.title = element_blank(),
+          legend.position = "bottom")
 ggsave("output/task3_overall.pdf", width = 7, height = 4)
 
 # Larger plot faceted by thread length and position

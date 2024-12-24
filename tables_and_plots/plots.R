@@ -3,7 +3,6 @@ library(scico)
 library(ggrepel)
 library(stringr)
 
-
 ################# Tasks 1 and 2
 ## Load data
 data <- read.csv("raw_scores/tasks_1_2.csv")
@@ -52,7 +51,7 @@ levels(long_subset$model)[levels(long_subset$model) == "GPT3-Ada"] <- "GPT-3 Ada
 levels(long_subset$model)[levels(long_subset$model) == "GPT3-Davinci"] <- "GPT-3 Davinci"
 
 label_positions <- data.frame(
-    model = c("GPT4o", "GPT3-Davinci"),
+    model = c("GPT-4o", "GPT-3 Davinci"),
     regime = c("Few-shot", "1352"),
     dataset = c("Facebook", "Twitter")
 )
@@ -75,14 +74,18 @@ hline_data_random <- data.frame(
 )
 
 ggplot(long_subset %>% filter(metric == "F1"), aes(y = estimate, x = regime, group = model, color = model)) +
-    geom_pointrange(aes(ymin = ci.low, ymax = ci.high), position = dodge, size = 0.25) +
-    geom_line(position = dodge, alpha = 0.5) +
-    scale_color_viridis_d(option = "turbo") +
-    geom_hline(data = hline_data, aes(yintercept = yintercept),color = "grey20", linetype = "dashed", size = 0.3) +
-    geom_hline(data = hline_data_random, aes(yintercept = yintercept), color = "grey20", linetype = "dotted", size = 0.3) +
-    facet_wrap(~ interaction(dataset), scales = "free_x", nrow = 2) +
-    theme_classic(base_size = 11) +
-    theme(legend.position = "bottom") +
-    ylim(0,.95) +
-    labs(y = "F1", x = "Learning regime", color = "Model")
-ggsave("output/main_figure_baseline.pdf", width = 8.2)
+  geom_line(position = dodge, alpha = 0.5) +  
+  geom_pointrange(aes(ymin = ci.low, ymax = ci.high,shape=model), position = dodge, size = 0.25) +
+  geom_text(data=labels, aes(label=model),size=2.5,hjust=0,vjust=-1,color="black",nudge_y = 0.03) +
+  scale_color_viridis_d(option = "turbo") +
+  geom_hline(data = hline_data, aes(yintercept = yintercept),color = "grey20", linetype = "dashed", size = 0.3) +
+  geom_hline(data = hline_data_random, aes(yintercept = yintercept), color = "grey20", linetype = "dotted", size = 0.3) +
+  scale_shape_manual(values=c(3,4,8,1,2,0,6,5,9,15)) +
+  # scale_shape_manual(values=c(4,4,4,15,15,2,15,15,15,15)) +
+  # scale_shape_manual(values=0:9) +
+  facet_wrap(~ interaction(dataset), scales = "free_x", nrow = 2) + 
+  theme_classic(base_size = 11) +
+  theme(legend.title = element_blank(), legend.position = "bottom") +
+  ylim(0,.95) +
+  labs(y = "F1", x = "Learning regime")
+ggsave("output/main_figure_baseline.pdf", width = 8.2, height = 9.23)
