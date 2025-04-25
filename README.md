@@ -2,7 +2,7 @@
 
 Last edited 12/12/2024
 
-This repository contains replication materials for Youngjin (YJ) Chae and Thomas Davidson. Forthcoming. "Large Language Models for Text Classification: From Zero-Shot Learning to Instruction-Tuning." *Sociological Methods & Research.* A pre-print is available [here](https://osf.io/preprints/socarxiv/sthwk).
+This repository contains replication materials for Youngjin (YJ) Chae and Thomas Davidson. 2025. "Large Language Models for Text Classification: From Zero-Shot Learning to Instruction-Tuning." *Sociological Methods & Research.* (https://journals.sagepub.com/doi/10.1177/00491241251325243).
 
 Please get in touch via email if you have any questions.
 
