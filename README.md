@@ -1,4 +1,4 @@
-# Replication materials for stance detection
+# Replication materials for Large Language Models for Text Classification: From Zero-Shot Learning to Instruction-Tuning
 
 Last edited 12/12/2024
 
